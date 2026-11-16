@@ -1,0 +1,8 @@
+# Pinned dependencies — verified against these exact versions on Python 3.12.3.
+# The tournament model (orbital_thermal_study.py) is standard-library only.
+# numpy/scipy are used by the 3D finite-volume PDN solver in repair_coupon.py;
+# matplotlib/Pillow are used only by generate_figures.py.
+matplotlib==3.8.4
+Pillow==10.2.0
+numpy==1.26.4
+scipy==1.11.4

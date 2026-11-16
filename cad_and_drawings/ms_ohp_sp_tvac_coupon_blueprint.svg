@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680">
+  <rect width="1100" height="680" fill="#0f172a"/>
+  <rect x="16" y="16" width="1068" height="648" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="36" y="50" fill="#f8fafc" font-family="monospace" font-size="19" font-weight="bold">
+    ORBITAL MS-OHP-SP INERT TVAC COUPON &amp; REPAIRED SMD-2512 LAYOUT BLUEPRINT (F1-F5, F8)
+  </text>
+  <text x="36" y="74" fill="#94a3b8" font-family="monospace" font-size="12.5">
+    Stage-0 Status: INERT MACHINABILITY &amp; TVAC CONTACT COUPON ONLY (Zero Energization Without PE/EHS Signoff) | Watertight B-Rep STEP (V-E+F=2)
+  </text>
+
+  <!-- Left: 100x100mm MS-OHP-SP Panel with 45x45mm Boss & 16 Non-Colliding SMD 2512 Footprints -->
+  <rect x="40" y="95" width="480" height="440" fill="#0f172a" stroke="#64748b" stroke-width="1.5"/>
+  <text x="55" y="118" fill="#38bdf8" font-family="monospace" font-size="13.5" font-weight="bold">
+    A. 100x100x2.6mm MS-OHP-SP PANEL + 4x4 SMD-2512 ARRAY (0 COLLISIONS)
+  </text>
+  <rect x="100" y="140" width="360" height="360" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="199" y="239" width="162" height="162" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+  <!-- 8 Cellular OHP serpentine cavities -->
+  <rect x="114" y="156" width="332" height="18" fill="#0284c7" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1"/>
+  <rect x="114" y="198" width="332" height="18" fill="#0284c7" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1"/>
+  <rect x="114" y="240" width="332" height="18" fill="#0284c7" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1"/>
+  <rect x="114" y="282" width="332" height="18" fill="#0284c7" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1"/>
+  <rect x="114" y="324" width="332" height="18" fill="#0284c7" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1"/>
+  <rect x="114" y="366" width="332" height="18" fill="#0284c7" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1"/>
+  <rect x="114" y="408" width="332" height="18" fill="#0284c7" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1"/>
+  <rect x="114" y="450" width="332" height="18" fill="#0284c7" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1"/>
+  <!-- 4x4 non-colliding SMD 2512 heaters (6.35x3.20mm on 11.25mm pitch -> +4.90mm X clearance, +8.05mm Y clearance) -->
+  <rect x="208" y="252" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="248" y="252" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="288" y="252" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="328" y="252" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="208" y="292" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="248" y="292" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="288" y="292" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="328" y="292" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="208" y="332" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="248" y="332" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="288" y="332" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="328" y="332" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="208" y="372" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="248" y="372" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="288" y="372" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <rect x="328" y="372" width="23" height="12" fill="#22c55e" stroke="#bbf7d0" stroke-width="1"/>
+  <text x="98" y="522" fill="#e2e8f0" font-family="monospace" font-size="11.5">
+    Outer Panel: 100.0x100.0mm | Boss: 45.0x45.0mm | SMD 2512 Clearance: +4.90mm X / +8.05mm Y
+  </text>
+
+  <!-- Right Top: Coupon Defect Repair Table (F1-F5, F8) -->
+  <rect x="540" y="95" width="520" height="240" fill="#0f172a" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="556" y="118" fill="#4ade80" font-family="monospace" font-size="13.5" font-weight="bold">
+    B. COUPON DEFECT REPAIRS (F1-F5, F8)
+  </text>
+  <text x="556" y="144" fill="#e2e8f0" font-family="monospace" font-size="11.5">
+    - F1 Netlist Power: 4x4 Series-Parallel 11.52 Ohm @ 24V, 50.000 W matrix (49.87 W total)
+  </text>
+  <text x="556" y="166" fill="#e2e8f0" font-family="monospace" font-size="11.5">
+    - F2 Package Collision: SMD 2512 (6.35x3.20mm) spans 40.10mm &lt; 45.0mm (0 collisions)
+  </text>
+  <text x="556" y="188" fill="#e2e8f0" font-family="monospace" font-size="11.5">
+    - F3 STEP Topology: 10 MANIFOLD_SOLID_BREP / 10 CLOSED_SHELL / 60 ADVANCED_FACE (V-E+F=2)
+  </text>
+  <text x="556" y="210" fill="#e2e8f0" font-family="monospace" font-size="11.5">
+    - F4 Channel Continuity: 30 ch/header (60 total), L=42.0mm, v=0.7937 m/s, dP=6.53 kPa
+  </text>
+  <text x="556" y="232" fill="#e2e8f0" font-family="monospace" font-size="11.5">
+    - F5 3D PDN Laplace: 16x16x8 (2,048 3D FVM cells) explicit z-axis conductivity solver
+  </text>
+  <text x="556" y="254" fill="#e2e8f0" font-family="monospace" font-size="11.5">
+    - F8: INERT Stage-0 classification (no energization without external PE/EHS signoff)
+  </text>
+  <text x="556" y="284" fill="#fde047" font-family="monospace" font-size="12" font-weight="bold">
+    TVAC Acceptance Gates: dry mass &lt;= 62% of solid Al-6061 control at equal EI (+/-5%); He leak &lt; 1e-8 atm-cc/s; k_eff &gt;= 1,200 W/m-K (reject &lt; 600 or dryout &lt; 50 W)
+  </text>
+  <text x="556" y="306" fill="#94a3b8" font-family="monospace" font-size="11">
+    Compared head-to-head against matched-area Conventional CCHP Panel (A04: 5.423 kg/kW)
+  </text>
+
+  <!-- Right Bottom: 3-Round Orbital Invention Loop Summary -->
+  <rect x="540" y="350" width="520" height="185" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="556" y="374" fill="#38bdf8" font-family="monospace" font-size="13.5" font-weight="bold">
+    C. THREE-ROUND COMPARATIVE STUDY SUMMARY
+  </text>
+  <text x="556" y="400" fill="#fca5a5" font-family="monospace" font-size="11.5">
+    Round 1: Naive Pumped MIF-PWS (A06: 9.345 kg/kW) REJECTED; Conventional A04 (5.423 kg/kW) ADOPTED
+  </text>
+  <text x="556" y="424" fill="#86efac" font-family="monospace" font-size="11.5">
+    Round 2: Invented MS-OHP-SP (A09: 3.458 kg/m2 &lt; 5.083 break-even; 2.725 kg/kW coupled, -60% vs A04)
+  </text>
+  <text x="556" y="448" fill="#fde047" font-family="monospace" font-size="11.5">
+    Round 3 (Regime C3 General AI): Terrestrial Clean-Grid A11 ($1,384/kW-yr) beats the best orbital arm by 9.7x
+  </text>
+  <text x="556" y="472" fill="#38bdf8" font-family="monospace" font-size="11.5">
+    Round 3 (Regime C1/C2 Space-Native Edge): Sparse Edge + MS-OHP-SP (A10) wins by 3.06x vs Ground
+  </text>
+  <text x="556" y="496" fill="#cbd5e1" font-family="monospace" font-size="11">
+    and 20.25x vs the modeled Suncatcher-class baseline (A02), while cutting re-entry Al2O3 by -84.0%!
+  </text>
+
+  <rect x="40" y="550" width="1020" height="90" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+  <text x="56" y="576" fill="#f8fafc" font-family="monospace" font-size="13" font-weight="bold">
+    FINAL DISPOSITION: LIMITED GO (Regime C1/C2 Space-Native Edge A10 &amp; Inert TVAC Coupon) | REJECT (Naive Pumped MIF-PWS A06 &amp; Regime C3 General Orbital AI)
+  </text>
+  <text x="56" y="600" fill="#94a3b8" font-family="monospace" font-size="11.5">
+    All results are computational &amp; CAD-verified (SIMULATED). Physical flight &amp; thermal-vacuum qualification remain on HOLD pending external TVAC chamber test.
+  </text>
+  <text x="56" y="622" fill="#94a3b8" font-family="monospace" font-size="11.5">
+    Stratospheric black-carbon radiative forcing &amp; heterogeneous Al2O3 ozone-depletion coefficients are explicitly recorded as UNKNOWN.
+  </text>
+</svg>
